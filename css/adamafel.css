@@ -1,5 +1,6 @@
 body{
-min-width: 700px;
+    margin: 0;
+    padding: 0;
 }
 
 h2{
@@ -13,18 +14,16 @@ h2{
     min-width: 400px;
 }
 
-
 #butPrincipal{
     margin-left: 30px;
     height: 90px;
-    max-width: 100%;
+    max-width: 350px;
 }
 
 #navItems{
     /* top right bottom left */
     margin: 53px 0px 0px auto;
-    font-size: 1.8rem; 
-    
+    font-size: 1.8rem;    
 }
 
 button{ 
@@ -33,69 +32,30 @@ button{
     outline: none !important;
     background: none;
     border: none;
-    
 }
 
-.linkSelect{
-    /* color: rgb(7, 106, 255); */
-    border-bottom: solid 5px rgb(255, 219, 60);
-}
-
-.linkHover{
+.link:hover {
     background-color: rgb(57, 45, 170);
 }
 
-#separador{
-    height: 100px;
-    background-color: rgba(23, 23, 23, 0.3);
-}
-
-.pagPrincipal{
-    min-height: 500px;
-    margin-bottom: 20px;
+.linkSelect{
+    border-bottom: solid 5px rgb(255, 219, 60);
 }
 
 .imgPortada{
-    max-height: 450px;
-    max-width: 600px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 500px;
 }
 
-#pie{
-    min-height: 100px;
-    background-color: rgb(62, 62, 78);
-    color: white;
-    text-align: center;
-    font-size: .5rem;
-    
+
+.row{
+    height: 500px;
+    width: 100%;
 }
 
-#logoColor{
-    width: 150px;
-    height: 50px;
-    margin: 10px;
-}
-
-section{
-    min-height: 500px;
-
-}
-
-.pieTitulo{
-    font-size: 1.5rem;
-    
-    
-}
-.pieTexto{
-    font-size: 1rem;
-}
-
-#pagContacto{
-    background-color: blue;
-}
-
-.contactoTexto{
-    width: 40%;
-    height: 30%;
-    float: inline-start;
-    background-color: red;
+.col-md-7{
+    padding: 0;
 }

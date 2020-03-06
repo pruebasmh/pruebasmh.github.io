@@ -2,20 +2,10 @@ $(".navbar-brand").on("click", function(){
     $(".link").removeClass("linkSelect")
 });
 
-
 $(".link").on("click", function(){
     $(".link").removeClass("linkSelect")
     $(this).addClass("linkSelect");
 });
-
-$(".link").on("mouseenter", function(){
-    $(this).addClass("linkHover")
-});
-$(".link").on("mouseleave", function(){
-    $(this).removeClass("linkHover")
-});
-
-
 
 
 setInterval(cambiarFoto, 4000);
